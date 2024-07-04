@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="shortcut icon" href="https://www.cju.ac.kr/favicon.ico" type="image/x-icon" />
+
+    <title>정렬 알고리즘 시각화 - 김태원</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <br /><br />
+        <h1 style="text-align: center;">소프트웨어 공학 2019012024 김태원</h5>
+      </div>
+      <div id="array-container">
+        <div id="array"></div>
+        <h5 id="no-algo-warning" class="display-none">정렬 알고리즘을 선택해주세요!</h5>
+      </div>
+      <div id="algo-container">
+        <button class="algo-btn">Bubble Sort</button>
+        <button class="algo-btn">Selection Sort</button>
+        <button class="algo-btn">Heap Sort</button>
+        <button class="algo-btn">Quick Sort</button>
+        <button id="sort">Start</button>
+      </div>
+      <div id="change-container">
+        <button id="randomize">랜덤 배열 생성</button>
+        <div id="sliders">
+          <div class="slider-container">
+            <label>배열 크기</label>
+            <input type="range" id="size-slider" class="slider" autocomplete="off" />
+          </div>
+          <div class="slider-container">
+            <label>애니메이션 속도</label>
+            <input type="range" id="speed-slider" class="slider" autocomplete="off" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="assets/script.js"></script>
+    <script src="assets/script.js"></script>
+    <script src="assets/bubble-sort.js"></script>
+    <script src="assets/selection-sort.js"></script>
+    <script src="assets/quick-sort.js"></script>
+    <script src="assets/heap-sort.js"></script>
+  </body>
+</html>
